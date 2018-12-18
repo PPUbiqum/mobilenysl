@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NYSL Mobile App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div id="myapp">
+        <div id="index" v-if="pages == 'index'">
+            <div class="home">
+                <div class="headerline">
+                    <h2>NYSL Webapp</h2>
+
+                </div>
+                <div class="pic">
+                    <img src="nysl_logo.png">
+                </div>
+
+                <p>Welcome to our mobile NYSL event Application.</p>
+                <p>List of upcoming events:</p>
+                <ul>
+                    <li>NYSL Summer Tournament : 03/09/2018</li>
+                    <li>NYSL Christmas Tournament with special events and prices : 21/12/2018</li>
+                    <li>NYSL New Years Fun Event : 02/12/2018</li>
+                </ul>
+
+            </div>
+
+            <div class="row  myRow">
+                <div class="col-3">
+                    <i class="fa fa-home active"></i>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'contact'; setActive($event)"><i class="fa fa-calendar"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'maps'"><i class="fa fa-map-marker"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'chat'"><i class="fa fa-comments"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="table" v-if="pages == 'contact'">
+            <div class="headerline">
+                <h2>Summer Tournament Schedule</h2>
+            </div>
+            <div class="info">
+                <p>Tournament starts at 09:00 on 03/09/2018</p>
+                <p>bold written Team is the Host</p>
+            </div>
+            <main id="tournament">
+                <ul class="round round-1">
+                    <li class="spacer">&nbsp;</li>
+
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">Katzenmayer Yungguns</li>
+
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Greenbay Warriors</li>
+
+                    <li class="spacer">&nbsp;</li>
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">North Elementary</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">South Elementary</li>
+
+                    <li class="spacer">&nbsp;</li>
+
+
+
+                    <li class="spacer">&nbsp;</li>
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">Marjorie's</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Alvarado</li>
+
+                    <li class="spacer">&nbsp;</li>
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">Howard A Yeager</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Lincoln </li>
+
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+                <ul class="round round-2">
+                    <li class="spacer">&nbsp;</li>
+
+                    <li class="game game-top" v-on:click="pages = 'teaminfo'">Winner Game 1</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Winner Game 2</li>
+
+                    <li class="spacer">&nbsp;</li>
+
+
+
+
+
+                    <li class="game game-top  " v-on:click="pages = 'teaminfo'">Winner Game 3</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Winner Game 4</li>
+
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+                <ul class="round round-3">
+                    <li class="spacer">&nbsp;</li>
+
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">Finalist 1</li>
+                    <li class="game game-spacer">&nbsp;</li>
+                    <li class="game game-bottom " v-on:click="pages = 'teaminfo'">Finalist 2</li>
+
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+                <ul class="round round-4">
+                    <li class="spacer">&nbsp;</li>
+
+                    <li class="game game-top " v-on:click="pages = 'teaminfo'">Champion</li>
+
+
+                    <li class="spacer">&nbsp;</li>
+                </ul>
+            </main>
+
+
+            <div class="row  myRow">
+                <div class="col-3">
+                    <a v-on:click="pages = 'index'">
+                        <i class="fa fa-home"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'contact'"><i class="fa fa-calendar active"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'maps'"><i class="fa fa-map-marker"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'chat'"><i class="fa fa-comments"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="maps" v-if="pages == 'maps'">
+            <div class="secondt">
+                <table>
+
+
+                    <thead>
+                        <div class="headerline">
+                            <h2>Game Locations</h2>
+                        </div>
+                    </thead>
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>
+                                <div class="blue">AJ Katzenmaier Elementary</div>
+                            </td>
+                            <td>24 W. Walton St., Chicago, IL 60610</td>
+
+                        </tr>
+
+
+
+
+                        <tr>
+                            <td>
+                                <div class="yellow">Greenbay Elementary</div>
+                            </td>
+                            <td>1734 N. Orleans St., Chicago, IL 60614</td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="purple">Howard A Yeager Elementary</div>
+                            </td>
+                            <td>2245 N. Southport Ave., Chicago, IL 60614</td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="black">Marjorie P Hart Elementary</div>
+                            </td>
+                            <td>2625 N. Orchard St., Chicago, IL 60614</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="green">North Elementary</div>
+                            </td>
+                            <td>1409 N. Ogden Ave., Chicago, IL 60610</td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="violett">South Elementary</div>
+                            </td>
+                            <td>2101 N. Fremont St., Chicago, IL 60614</td>
+
+                        </tr>
+                    </tbody>
+
+
+                </table>
+
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=186SQnzn_V60xLtIzuFsvtFzZ_73Ddp-C" width="440" height="430"></iframe>
+                </div>
+            </div>
+            <div class="row  myRow">
+                <div class="col-3">
+                    <a v-on:click="pages = 'index'">
+                        <i class="fa fa-home"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'contact'"><i class="fa fa-calendar"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'maps'"><i class="fa fa-map-marker active"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'chat'"><i class="fa fa-comments"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="chat" v-if="pages == 'chat'">
+            <div class="headerline">
+                <h2>Chat</h2>
+            </div>
+            <p>To use our chat please log in :</p>
+            <button id="login" class="button is-info" v-on:click="login">Login!</button>
+
+
+            <div class="chat">
+                <div id="posts" class="box">
+
+                </div>
+
+                <div class="inputs">
+                    <input id="textInput" class="input" type="text" placeholder="Your message...">
+
+                    <button id="create-post" class="button is-primary" v-on:click="writeNewPost"><i class="fa fa-paper-plane"></i></button>
+
+
+                </div>
+            </div>
+            <div class="row  myRow">
+                <div class="col-3">
+                    <a v-on:click="pages = 'index'">
+                        <i class="fa fa-home"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'contact'"><i class="fa fa-calendar"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'maps'"><i class="fa fa-map-marker"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'chat'"><i class="fa fa-comments active"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="teaminfo" v-show="pages == 'teaminfo'">
+            <div class="dropdown">
+
+                <select id="dropdownfilter" class="filter">
+                    <option value="All">--Choose Team--</option>
+
+                </select>
+
+            </div>
+
+            <table class="table table-borerless">
+                <thead>
+                    <tr>
+                        <th>location</th>.
+                        <th>NYSL2018</th>
+                        <th>coach</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="teamdata in team.teamdata">
+                        <td>{{teamdata.location}}</td>
+                        <td>{{teamdata.NYSL2018}}</td>
+                        <td>{{teamdata.coach}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+
+
+
+            <table id="team-data" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>position</th>.
+                        <th>player's name</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="player in team.players">
+                        <td>{{player.position}}</td>
+                        <td>{{player.name}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+            <div class="row  myRow">
+                <div class="col-3">
+                    <a v-on:click="pages = 'index'">
+                        <i class="fa fa-home"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'contact'"><i class="fa fa-calendar"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'maps'"><i class="fa fa-map-marker"></i></a>
+                </div>
+                <div class="col-3">
+                    <a v-on:click="pages = 'chat'"><i class="fa fa-comments "></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="mobiledata.json.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDLbp9B5QRmJjhQhLBLc6l7YjhaZn9JVio",
+            authDomain: "mobilenysl1.firebaseapp.com",
+            databaseURL: "https://mobilenysl1.firebaseio.com",
+            projectId: "mobilenysl1",
+            storageBucket: "mobilenysl1.appspot.com",
+            messagingSenderId: "1000187756438"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <script src="mobilejava.js"></script>
+
+</body>
+
+</html>

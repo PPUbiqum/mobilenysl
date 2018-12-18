@@ -1,0 +1,190 @@
+{
+    "num_teams": 8,
+    "teams": [
+        {
+            "id": "Team1",
+            "title": "Katzenmaier youngguns",
+            "NYSL2018":"3rd",
+            "home": "Katzenmaier Elementary",
+            "goalkeeper": "Niels Nellon",
+            "leftback": "Shaun Leef",
+            "Centerback1":"Pete Silvas",
+            "Centerback2":"Nate Birch",
+            "rightback":"Patrick Sein",
+            "Defensivemid":"Chris Wilmer",
+            "leftwing":"Steve Oster",
+            "rightwing":"Micheal Korp",
+            "centermid":"Trent Oister",
+            "offensivemid":"David Arnold",
+            "leftforward":"Roman True",
+            "rightforward":"Kevin Steen",
+            "striker":"Matt Fisher",
+            "coach":"Clayton Turner",
+            
+            
+            
+        },
+        {
+            "id": "Team2",
+            "title": "Greenbay Warriors",
+            "NYSL2018":"9th",
+            "home": "Greenbay Elementary",
+            "goalkeeper": "Tom Kartlon",
+            "leftback": "Shean Tershy",
+            "Centerback1":"Matt Lennon",
+            "Centerback2":"Stevie Miller",
+            "rightback":"Cory Mou",
+            "Defensivemid":"Louie Perez",
+            "leftwing":"Paul Miller",
+            "rightwing":"Cgris Bradley",
+            "centermid":"Mike Stone",
+            "offensivemid":"Steve Bennet",
+            "leftforward":"Tony Sagrera",
+            "rightforward":"Bob Pleis",
+            "striker":"Darren Montinio",
+            "coach":"Spencer Bennet",
+            
+            
+            
+        },
+        {
+            "id": "Team3",
+            "title": "Greenbay Warriors",
+            "NYSL2018":"4th",
+            "home": "North Elementary",
+            "goalkeeper": "Leo Valdez",
+            "leftback": "Taylor Bird",
+            "Centerback1":"Jake Henry",
+            "Centerback2":"Michael Trew",
+            "rightback":"Donald Weu",
+            "Defensivemid":"Sammy Marcos",
+            "leftwing":"Pete Steve",
+            "rightwing":"Lincoln Mayer",
+            "centermid":"Marc Dessep",
+            "offensivemid":"Christopher Henry",
+            "leftforward":"Mark Susin",
+            "rightforward":"Donta Perez",
+            "striker":"Vinnie Rodriguez",
+            "coach":"Mike Preston",
+            
+            
+            
+        },
+        {
+            "id": "Team4",
+            "title": "Greenbay Warriors",
+            "NYSL2018":"18th",
+            "home": "South Elementary",
+            "goalkeeper": "Jamie Farrar",
+            "leftback": "Steve Maier",
+            "Centerback1":"Herbert Miller",
+            "Centerback2":"Joe Alley",
+            "rightback":"Mike Marcus",
+            "Defensivemid":"Daniel Varga",
+            "leftwing":"Lucas Ramirez",
+            "rightwing":"Bary Naten",
+            "centermid":"Liam Nessly",
+            "offensivemid":"Ethan Jackson",
+            "leftforward":"Oliver Barton",
+            "rightforward":"Joseph Newph",
+            "striker":"Elijah Hill",
+            "coach":"Jason Jinkard",
+            
+            
+        },
+        {
+            "id": "Team5",
+            "title": "",
+            "NYSL2018":"1st",
+            "home": "Marjorie P Hart Elementary",
+            "goalkeeper": "Owen Carter",
+            "leftback": "Jayden Stuart",
+            "Centerback1":"Sebastian Grief",
+            "Centerback2":"Carter Lorrence",
+            "rightback":"Isaac Mountain",
+            "Defensivemid":"Dylan Forrest",
+            "leftwing":"Julian Neal",
+            "rightwing":"Max Front",
+            "centermid":"Adrian Mula",
+            "offensivemid":"Nicholas Johnson",
+            "leftforward":"Dominik Dalbert",
+            "rightforward":"Theodore Dompiere",
+            "striker":"Patrik Leste",
+            "coach":"Rodney Collins",
+            
+            
+            
+        },
+        {
+            "id": "Team6",
+            "title": "Alvarado Soccer Team",
+            "NYSL2018":"14th",
+            "home": "Alvarado Elementary",
+            "goalkeeper": "Elias Miller",
+            "leftback": "Vincent Thierry",
+            "Centerback1":"Justin Theme",
+            "Centerback2":"Tiago Riana",
+            "rightback":"Cole Matthew",
+            "Defensivemid":"Andrew Micheals",
+            "leftwing":"TRistan Backer",
+            "rightwing":"Axel Nicholsen",
+            "centermid":"Silas Narrow",
+            "offensivemid":"Bryce Stari",
+            "leftforward":"Richard Resse",
+            "rightforward":"Amir Ozduga",
+            "striker":"Oscar Milage",
+            "coach":"Christian Henry",
+            
+            
+            
+        },
+        {
+            "id": "Team7",
+            "title": "Howard A Yeager Elementary",
+            "NYSL2018":"1st",
+            "home": "Howard A Yeager Elementary",
+            "goalkeeper": "Aiden Weter",
+            "leftback": "Marek Stulio",
+            "Centerback1":"Jasper Brooker",
+            "Centerback2":"Jorger O'Connor",
+            "rightback":"Eric Tannem",
+            "Defensivemid":"Simon Bluse",
+            "leftwing":"Felix Derer",
+            "rightwing":"Martin Mullio",
+            "centermid":"Kilian Basket",
+            "offensivemid":"Travis Parker",
+            "leftforward":"Eduardo Marques",
+            "rightforward":"Walter Jackson",
+            "striker":"Mario Lincoln",
+            "coach":"Louis Christopher",
+            
+            
+            
+        },
+        {
+            "id": "Team8",
+            "title": "Greenbay Warriors",
+            "NYSL2018":"10th",
+            "home": "Lincoln Elementary",
+            "goalkeeper": "Keegan Passili",
+            "leftback": "Collin Palmer",
+            "Centerback1":"Troy Woods",
+            "Centerback2":"Tanner Mccoy",
+            "rightback":"Jett Audrey",
+            "Defensivemid":"Mike Phillips",
+            "leftwing":"John Trester",
+            "rightwing":"Ali Williams",
+            "centermid":"Alex Truewood",
+            "offensivemid":"Frank Groddie",
+            "leftforward":"Theo Jesse",
+            "rightforward":"Marshall York",
+            "striker":"Cody Lockwood",
+            "coach":"Tyler Hewwit",
+            
+            
+            
+        },
+        
+        
+    ]
+}

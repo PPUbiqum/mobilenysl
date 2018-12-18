@@ -1,0 +1,250 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.pic img {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+
+
+}
+
+#index p {
+    font-size: 20px;
+}
+
+h2 {
+    color: lightgreen;
+}
+
+
+
+a {
+    color: white;
+}
+
+.active {
+    color: lightgreen;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+}
+
+.round .spacer {
+    flex-grow: 1;
+}
+
+.round .spacer:first-child,
+.round .spacer:last-child {
+    flex-grow: .5;
+}
+
+.round .game-spacer {
+    flex-grow: 1;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: small;
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+li.game {
+    padding-left: 20px;
+}
+
+
+}
+
+li.game span {
+    float: right;
+    margin-right: 5px;
+}
+
+li.game-top {
+    border-bottom: 1px solid #aaa;
+    font-weight: bold;
+}
+
+li.game-spacer {
+    border-right: 1px solid #aaa;
+    min-height: 40px;
+}
+
+li.game-bottom {
+    border-top: 1px solid #aaa;
+}
+
+
+.myRow {
+    background-color: grey;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 50px;
+    width: 103%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+
+}
+
+.col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tournament {}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
+
+.u1 {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+.u2 {
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.u3 {
+    text-decoration: underline;
+}
+
+
+.u4 {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.u5 {
+    text-decoration: underline;
+    text-decoration-color: fuchsia;
+}
+
+.yellow {
+    color: yellow
+}
+
+.blue {
+    color: blue
+}
+
+.purple {
+    color: purple
+}
+
+.black {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.green {
+    color: green
+}
+
+.violett {
+    color: violet
+}
+
+.map {}
+
+.headerline {
+    width: 100%;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chat {}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color:
+
+        height: 30px;
+
+
+
+
+}
+
+#createpost {
+    font-size: 40px;
+}
+
+#textInput {
+    width: 80%;
+}
+
+#posts {}
+
+.chatmessages {
+
+    border: 1px solid lightgreen;
+    width: 40%;
+    border-radius: 10px;
+    background-color: darkgray;
+    margin: 5px 0;
+    word-break: break-all;
+
+
+
+}
+
+#posts {
+    scroll-behavior: smooth;
+    height: 51vh;
+    overflow-y: scroll;
+    width: 80%;
+
+}
+
+
+#login {
+    height: 40px;
+    width: 80px;
+    background-color: lightgreen;
+    border-radius: 10px;
+
+}
